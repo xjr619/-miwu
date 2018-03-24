@@ -1,0 +1,22 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form,div,span,a, fieldset, legend, img {
+    margin: 0;
+    padding: 0;  /*清除元素的内外边距*/
+}
+a{
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
+ .clearfix:after{
+    content: ".";
+    display: block;
+    clear:both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+.clearfix{
+    *zoom:1;
+} 
